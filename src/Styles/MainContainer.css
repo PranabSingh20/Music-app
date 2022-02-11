@@ -1,0 +1,20 @@
+.MainContainer{
+    height:100vh;
+    flex-direction: row;
+    padding:20px;
+    overflow:hidden;
+    width:100%;
+    color:white;
+}
+
+.songsContainer{
+    color:white;
+    height:95%;
+    overflow-y: scroll;
+}
+
+.Player{
+    width:100%;
+    background-color: aliceblue;
+    color:white;
+}
