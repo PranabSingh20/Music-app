@@ -46,7 +46,7 @@ function LeftConatainer({accessToken}) {
   return <div className='LeftContainer'>
     <div className='logoContainer'>
       <i style={{marginLeft:"10px"}}><FaMusic/></i>
-      <h2 style={{marginLeft:"30px"}}>Groove</h2>
+      <h2 style={{marginLeft:"30px"}}>CatJam</h2>
     </div>
     <div className='searchContainer'>
       <input type='text' placeholder='Search' onChange={e=>{setSearch(e.target.value)}}></input>
