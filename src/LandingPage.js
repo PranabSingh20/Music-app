@@ -4,7 +4,6 @@ import { MainContainer } from './Components/MainContainer';
 import {SongProvider} from './SongContext';
 
 function LandingPage({accessToken}) {
-  console.log(accessToken);
   return (
     <SongProvider>
       <div className="LandingPage">

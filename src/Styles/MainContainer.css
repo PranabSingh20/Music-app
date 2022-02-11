@@ -1,10 +1,13 @@
 .MainContainer{
     height:100vh;
-    flex-direction: row;
+    display: flex;
     padding:20px;
     overflow:hidden;
     width:100%;
     color:white;
+}
+.Musicbox{
+    width:100%;
 }
 
 .songsContainer{
@@ -15,6 +18,13 @@
 
 .Player{
     width:100%;
-    background-color: aliceblue;
     color:white;
+}
+
+.lyrics{
+    width:100%;
+    padding:20px;
+    text-align:center;
+    overflow:hidden;
+    overflow-y:scroll;
 }

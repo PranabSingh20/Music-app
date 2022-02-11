@@ -30,7 +30,6 @@ function LeftConatainer({accessToken}) {
             },
             track.album.images[0]
           )
-            console.log(track);
           return {
             artist: track.artists[0].name,
             title: track.name,
