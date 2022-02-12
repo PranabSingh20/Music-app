@@ -5,7 +5,7 @@ import {accessUrl} from "./authenticator"
 function Login() {
   return <div>
       <div className="login">
-        <img src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg" alt="A radio image"></img>
+        <img src="https://ak.picdn.net/shutterstock/videos/1030663952/thumb/1.jpg" alt="cool background image"></img>
         <a href={accessUrl}>LOGIN WITH SPOTIFY</a>
       </div>
   </div>;
